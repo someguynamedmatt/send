@@ -1,17 +1,21 @@
 ## How to use:
 
-`send --to={to address} --subject={subject} --body={Email text} --file={/home/me/my_conf.bak}`
+`send --to={email_address} --subject={subject} --body={text} --file={./my.bak}`
 
+> Send will allow you to quickly send an email/attachment to a supplied address. This is helpful if you spend a lot of time in the command line, but are too lazy/busy to leave the environment.
 
-### Send will allow you to quickly send a an email (with an attachment) to a supplied address. This is helpful if you tend to send yourself backup files when working in your command line, but you're too busy/lazy to get out of that environment.
-
-- Create a `Settings.json` file in the root directory with your sending email address' name/password
+- Create a `Settings.json` file in the root of the directory with your sending email and the password
 
     - Ex:
 
-    ```
-    {
-      "email": "myfakeemail@mailinator.com",
-      "password": "123fake"
-    }
-    ```
+      ```
+        {
+          "email": "myfakeemail@mailinator.com",
+          "password": "123fake"
+        }
+      ```
+
+WIP:
+
+  - Only works with gmail right now
+  - Default values not set
