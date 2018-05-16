@@ -1,0 +1,12 @@
+[package]
+name = "send"
+version = "0.1.0"
+authors = ["Matt <m@mttyng.com>"]
+
+[dependencies]
+lettre = "0.8"
+lettre_email = "0.8"
+clap = "2.29"
+mime = "0.3"
+native-tls = "0.1"
+config = "0.8"
